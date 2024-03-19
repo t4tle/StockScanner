@@ -56,10 +56,10 @@ def signal_generator(df):
     
 
 def candle_sorter(df):# check if candle is a doji
-    open = df.Open.iloc[-2]
-    close = df.Close.iloc[-2]
-    high = df.High.iloc[-2]
-    low = df.Low.iloc[-2]
+    open = df.Open.iloc[-1]
+    close = df.Close.iloc[-1]
+    high = df.High.iloc[-1]
+    low = df.Low.iloc[-1]
 
     if (open>close): 
         #bear
