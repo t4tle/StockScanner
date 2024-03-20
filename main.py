@@ -92,5 +92,5 @@ dataF["engulfing signal"] = engulfing_signal
 
 
 
-print(dataF.iloc[:,:])
-#dataF.to_excel(r'outputs\output.xlxs')
+#print(dataF.iloc[:,:])
+dataF.to_excel(r'outputs\output.xlsx')
